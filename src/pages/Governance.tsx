@@ -16,9 +16,9 @@ const principles = [
   },
   {
     icon: Eye,
-    title: "Transparency in Research",
+    title: "Donor-Exclusive Knowledge",
     description:
-      "Our research methods, findings, and limitations are documented openly. We believe the AI community benefits from honest, accessible knowledge sharing.",
+      "Our research methods, findings, and insights are shared exclusively with our donors. We believe in rewarding those who support our mission with direct access to our work.",
   },
   {
     icon: AlertTriangle,
