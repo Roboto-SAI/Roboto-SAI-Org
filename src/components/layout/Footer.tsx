@@ -43,6 +43,9 @@ const Footer = () => {
             <Link to="/donate" className="hover:text-accent transition-colors">
               Donate
             </Link>
+            <Link to="/donor-portal" className="hover:text-accent transition-colors">
+              Donor Portal
+            </Link>
             <Link to="/contact" className="hover:text-accent transition-colors">
               Contact
             </Link>
