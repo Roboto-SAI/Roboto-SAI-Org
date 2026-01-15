@@ -20,7 +20,7 @@ const benefits = [
     icon: Star,
     title: "Early Access",
     description:
-      "Be the first to test new tools, prototypes, and demonstrations developed by our team.",
+      "Be the first to test new tools, prototypes, and the Roboto SAI SDK developed by our team.",
   },
 ];
 
