@@ -1,28 +1,18 @@
 import { Link } from "react-router-dom";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="border-t border-border bg-background py-12">
+  return <footer className="border-t border-border bg-background py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="text-lg font-bold tracking-tight text-foreground">
               Roboto <span className="text-accent">SAI</span>
             </span>
-            <p className="text-sm text-muted-foreground">
-              Advancing ethical, human-centered AI systems.
-            </p>
+            <p className="text-sm text-muted-foreground">Super Advanced Intelligence systems.</p>
           </div>
 
           <div className="flex flex-col items-center md:items-end gap-2">
-            <a
-              href="mailto:roboto.sai@outlook.com"
-              className="text-sm text-muted-foreground hover:text-accent transition-colors"
-            >
-              roboto.sai@outlook.com
-            </a>
+            <a href="mailto:roboto.sai@outlook.com" className="text-sm text-muted-foreground hover:text-accent transition-colors">roboto@roboto-sai.org</a>
             <p className="text-sm text-muted-foreground">
               © {currentYear} Roboto SAI — All Rights Reserved
             </p>
@@ -52,8 +42,6 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
